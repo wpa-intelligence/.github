@@ -1,0 +1,75 @@
+name: 🐞 Bug Report
+description: File a bug report
+labels: [bug]
+title: "🐞 fix: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check if this bug has [already been reported](./).
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: Describe the issue & Potential root cause.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Describe how it should operate.
+    validations:
+      required: true
+  - type: checkboxes
+    id: environment
+    attributes:
+      label: Environment
+      description: Where does the issue occur?
+      options:
+        - label: development
+        - label: staging
+        - label: production
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Commit-Versioning-Hash | Local OS | Browser & Version
+      placeholder: v534e8b | macOS-14.0 | Edge 119.0.2151.72 x86_64
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Provide steps to recreate this issue.
+      placeholder: |-
+        - step one
+    validations:
+      required: true
+  - type: textarea
+    id: log-output
+    attributes:
+      label: Log output
+      description: Please paste the log output.
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Details
+      description: Provide further context.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Screenshots, Links, Etc.
+      description: Drag and Drop Images or Paste Link 
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        We appreciate you taking the time to report a bug.
