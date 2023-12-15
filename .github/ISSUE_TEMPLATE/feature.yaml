@@ -18,7 +18,7 @@ body:
     id: priority
     attributes:
       label: Priority
-      description: Determine importance (and mark with label ->).
+      description: Determine importance. (and mark with label ->)
       options:
         - label: High
         - label: Medium
