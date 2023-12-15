@@ -1,7 +1,7 @@
-name: ✨ Feature request
+name: ✨ Feature Request
 description: Propose a new feature
-title: "✨ <title>"
-labels: ["kind/enhancement", "kind/user-request"]
+title: "✨: "
+labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
@@ -10,25 +10,56 @@ body:
   - type: textarea
     id: goal
     attributes:
-      label: What are you trying to do?
-      description: Please tell us about the goal that you are trying to achieve.
+      label: What is being accomplished?
+      description: Describe the purpose of the enhancement.
+    validations:
+      required: true
+  - type: checkboxes
+    id: priority
+    attributes:
+      label: Priority
+      description: Determine importance (and mark with label ->).
+      options:
+        - label: High
+        - label: Medium
+        - label: Low
+    validations:
+      required: true
+  - type: textarea
+    id: Implementation
+    attributes:
+      label: Implementation
+      description: Explain how this enhancement will be completed.
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: Provide necessary steps to achieve this goal.
+    validations:
+      requirements: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: List necessary factors or materials to achieve this goal.
+  - type: 
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Details
+      description: Provide further context.
     validations:
       required: false
   - type: textarea
-    id: importance
     attributes:
-      label: Why is this important to you?
-      description: If you think that this could be important for others, let us know.
-    validations:
-      required: false
-  - type: textarea
-    id: workaround
-    attributes:
-      label: How are you currently working around this?
-      description: If you have a workaround in place, please share. This might help others & give us ideas.
+      label: Screenshots, Links, Etc.
+      description: Drag and Drop Images or Paste Link.
     validations:
       required: false
   - type: markdown
     attributes:
       value: |
-        We appreciate you taking the time to propose this new feature.
+        We appreciate your contribution.
+
