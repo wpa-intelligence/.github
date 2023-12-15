@@ -44,7 +44,6 @@ body:
     attributes:
       label: Dependencies
       description: List necessary factors or materials to achieve this goal.
-  - type: 
   - type: textarea
     id: additional
     attributes:
