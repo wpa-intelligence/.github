@@ -1,0 +1,41 @@
+name: 🧪 Testing Support
+description: Propose new tests
+title: "🧪: "
+labels: ["testing"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check if this testing request has [already been filed](./).
+  - type: textarea
+    id: goal
+    attributes:
+      label: What is being tested?
+      description: Describe the purpose of the tests.
+    validations:
+      required: true
+  - type: textarea
+    id: Implementation
+    attributes:
+      label: Implementation
+      description: Explain how these tests will be executed.
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Details
+      description: Provide further context.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Screenshots, Links, Etc.
+      description: Drag and Drop Images or Paste Link.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing our code.
+
