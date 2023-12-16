@@ -1,0 +1,64 @@
+name: 🏗️Refactor Request
+description: Suggest a refactor
+title: "🏗️: "
+labels: [refactor]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check if this refactor request has [already been filed](./).
+  - type: textarea
+    id: goal
+    attributes:
+      label: What needs to be refactored?
+      description: Describe the purpose of the refactor.
+    validations:
+      required: true
+  - type: checkboxes
+    id: priority
+    attributes:
+      label: Priority
+      description: Determine importance. (and mark with label ->)
+      options:
+        - label: High
+        - label: Medium
+        - label: Low
+    validations:
+      required: true
+  - type: textarea
+    id: Implementation
+    attributes:
+      label: Implementation
+      description: Explain what will be updated.
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: Provide necessary steps to achieve this goal.
+    validations:
+      requirements: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: List necessary factors or materials to achieve this goal.
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Details
+      description: Provide further context.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Screenshots, Links, Etc.
+      description: Drag and Drop Images or Paste Link.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        We appreciate you updating our logic.
+
