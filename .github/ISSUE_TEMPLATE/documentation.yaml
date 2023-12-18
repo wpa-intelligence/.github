@@ -1,6 +1,7 @@
 name: 📖 Documentation
 description: Update documentation
 labels: [documentation]
+title: "📖 docs: "
 body:
   - type: markdown
     attributes:
