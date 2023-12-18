@@ -1,7 +1,7 @@
 name: 🧪 Testing Support
 description: Propose new tests
+labels: [testing]
 title: "🧪: "
-labels: ["testing"]
 body:
   - type: markdown
     attributes:
