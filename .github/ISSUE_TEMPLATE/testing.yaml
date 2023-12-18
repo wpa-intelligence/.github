@@ -34,8 +34,3 @@ body:
       description: Drag and Drop Images or Paste Link.
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for testing our code.
-
