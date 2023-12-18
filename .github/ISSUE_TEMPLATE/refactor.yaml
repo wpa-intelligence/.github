@@ -1,7 +1,7 @@
 name: 🏗️ Refactor Request
 description: Suggest a refactor
-title: "🏗️: "
 labels: [refactor]
+title: "🏗️: "
 body:
   - type: markdown
     attributes:
