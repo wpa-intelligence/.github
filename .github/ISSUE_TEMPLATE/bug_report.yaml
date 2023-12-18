@@ -67,7 +67,3 @@ body:
       description: Drag and Drop Images or Paste Link.
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        We appreciate you taking the time to report a bug.
