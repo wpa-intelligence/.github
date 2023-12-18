@@ -22,7 +22,3 @@ body:
       description: Provide a description for the purpose of these docs.
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        We appreciate you making docs, making dev land a better place for all.
