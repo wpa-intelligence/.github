@@ -1,6 +1,6 @@
 name: 🏗️ Refactor Request
 description: Suggest a refactor
-labels: [refactor]
+labels: [Refactor]
 title: "🏗️: "
 body:
   - type: markdown
