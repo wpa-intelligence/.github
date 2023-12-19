@@ -1,6 +1,6 @@
 name: 🧪 Testing Support
 description: Propose new tests
-labels: [testing]
+labels: [Testing]
 title: "🧪: "
 body:
   - type: markdown
