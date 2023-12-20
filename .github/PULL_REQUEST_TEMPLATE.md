@@ -9,8 +9,7 @@
 - `test`: Implementing new or correcting existing tests
 - `style`: Changes that don't affect the meaning of the code (white-space, formatting, missing semi-colon, etc.)
 - `docs`: Documentation-only change
-- `build`: Changes that affect the build system or external dependencies (package manager, docker, etc.)
-- `ci`: Changes to our CI configuration files and scripts (github actions)
+- `chore`: Changes to the build process or auxiliary tools and libraries such as documentation generation
 
 ##### Commit Message
 Concise description of the changes. Imperative. Lower-case. No final dot.  
