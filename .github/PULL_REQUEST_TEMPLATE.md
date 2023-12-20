@@ -21,7 +21,7 @@ A message footer containing `BREAKING CHANGE` may be added to trigger a MAJOR ch
 
 ###### Resources
 conventional commits: https://www.conventionalcommits.org/en/v1.0.0/  
-commitizen-tools: https://github.com/commitizen-tools/commitizen
+commitizen-tools: https://github.com/commitizen/cz-cli
 
 <hr>
 
