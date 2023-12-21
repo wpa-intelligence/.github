@@ -15,7 +15,6 @@ body:
     validations:
       required: true
   - type: markdown
-    id: label
     attributes:
       value: |
         #### Add Labels
