@@ -14,15 +14,19 @@ body:
       description: Describe the purpose of the enhancement.
     validations:
       required: true
-  - type: checkboxes
-    id: priority
+  - type: markdown
+    id: label
     attributes:
-      label: Priority
-      description: Determine importance. (and mark with label ->)
-      options:
-        - label: High
-        - label: Medium
-        - label: Low
+      label: Add Labels
+      description: Provide status with semantic labelling. 👉
+      value: |
+        Severity
+        - `Low Priority`
+        - `Medium Priority`
+        - `High Priority`
+        Time Demand
+        - `Quick Fix`
+        - `Long-Term`
     validations:
       required: true
   - type: textarea
