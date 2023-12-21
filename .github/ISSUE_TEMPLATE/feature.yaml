@@ -26,6 +26,8 @@ body:
           **Time Demand**  
           &nbsp;&nbsp;&nbsp;&nbsp;- `Quick Fix`
           &nbsp;&nbsp;&nbsp;&nbsp;- `Long-Term`
+          **Feature** (*optional*)
+          &nbsp;&nbsp;&nbsp;&nbsp;- e.g. Arsenal, Fortify, Canvassing, etc.
     validations:
       required: true
   - type: textarea
