@@ -18,15 +18,15 @@ body:
     id: label
     attributes:
       value: |
-      #### Add Labels
-      ##### Provide status with semantic labelling. 👉
-        Severity
-        - `Low Priority`
-        - `Medium Priority`
-        - `High Priority`
-        Time Demand
-        - `Quick Fix`
-        - `Long-Term`
+        #### Add Labels
+        ##### Provide status with semantic labelling. 👉
+          **Severity**  
+          - `Low Priority`
+          - `Medium Priority`
+          - `High Priority`
+          **Time Demand**  
+          - `Quick Fix`
+          - `Long-Term`
     validations:
       required: true
   - type: textarea
