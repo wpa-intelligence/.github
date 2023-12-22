@@ -1,32 +1,3 @@
-#### Creating a Title
-**e.g.** `feat: allow provided config object to extend other configs`
-
-##### Conventional Commit Prefix
-- `fix`: A bug fix. Correlates with PATCH in SemVer
-- `feat`: An enhancement. Correlates with MINOR in SemVer
-- `refactor`: A code change that neither fixes a bug nor adds an enhancement
-- `perf`: A code change that optimizes performance
-- `test`: Implementing new or correcting existing tests
-- `style`: Changes that don't affect the meaning of the code (white-space, formatting, missing semi-colon, etc.)
-- `docs`: Documentation-only change
-- `chore`: Changes to the build process or auxiliary tools and libraries such as documentation generation
-
-##### Commit Message
-Concise description of the changes. Imperative. Lower-case. No final dot.  
-**e.g.** `do thing so that thing occurs`
-
-##### MAJOR Changes
-A message footer containing `BREAKING CHANGE` may be added to trigger a MAJOR change.  
-**e.g.** `BREAKING CHANGE: backwards-incompatible implementation`
-
-###### Resources
-conventional commits: https://www.conventionalcommits.org/en/v1.0.0/  
-commitizen-tools: https://github.com/commitizen/cz-cli
-
-<hr>
-
-<!--------------------YOU NEED NOT EDIT ABOVE THIS LINE---------------------->
-
 ## Description of Completed Work
 <!-----provide description----->
 
@@ -46,12 +17,3 @@ commitizen-tools: https://github.com/commitizen/cz-cli
 
 ### Close corresponding issue
 Closes #
-
-
-### Write Documentation
-If you _should_ write docs for this,  
-please do that in the proper places, be it:  
-the repo's doc directory, notion, or zendesk.
-
-
-
