@@ -14,34 +14,11 @@ body:
       description: Describe the purpose of the enhancement.
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        #### Add Labels
-        ##### Provide status with semantic labelling. 👉
-          **Severity**  
-          &nbsp;&nbsp;&nbsp;&nbsp;- `Low Priority`
-          &nbsp;&nbsp;&nbsp;&nbsp;- `Medium Priority`
-          &nbsp;&nbsp;&nbsp;&nbsp;- `High Priority`
-          **Time Demand**  
-          &nbsp;&nbsp;&nbsp;&nbsp;- `Quick Fix`
-          &nbsp;&nbsp;&nbsp;&nbsp;- `Long-Term`
-          **Feature** (*optional*)
-          &nbsp;&nbsp;&nbsp;&nbsp;- e.g. `Arsenal`, `Fortify`, `Canvassing`, etc.
-    validations:
-      required: true
-  - type: textarea
-    id: Implementation
-    attributes:
-      label: Implementation
-      description: Explain how this enhancement will be completed.
-    validations:
-      required: true
   - type: textarea
     id: requirements
     attributes:
       label: Requirements
-      description: Provide necessary steps to achieve this goal.
+      description: Provide steps for implementation.
     validations:
       requirements: true
   - type: textarea
@@ -53,12 +30,6 @@ body:
     id: additional
     attributes:
       label: Additional Details
-      description: Provide further context.
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: Screenshots, Links, Etc.
-      description: Drag and Drop Images or Paste Link.
+      description: Screenshots, links etc.
     validations:
       required: false
