@@ -3,10 +3,6 @@ description: "Open a Chore for minor update."
 labels: "type : chore"
 title: "🧹 chore: "
 body:
-  - type: markdown
-    attributes:
-      value: "Whistle while you work!"
-
   - type: textarea
     id: goal
     attributes:
