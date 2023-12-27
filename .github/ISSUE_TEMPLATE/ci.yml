@@ -1,0 +1,20 @@
+name: "🤖 CI"
+description: "Open a CI to create a minor update."
+labels: "Chore"
+title: "ci: "
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: What is the goal of this CI?
+      description: Describe the update details and why it's needed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation
+      description: Explain what will be updated.
+    validations:
+      required: true
