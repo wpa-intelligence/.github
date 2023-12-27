@@ -1,5 +1,5 @@
 name: "🧹 Chore"
-description: "Open a Chore for minor update."
+description: "Open a chore to create a minor update."
 labels: "Chore"
 title: "chore: "
 body:
