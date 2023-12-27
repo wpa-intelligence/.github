@@ -1,5 +1,5 @@
 name: "🤖 CI"
-description: "Open a CI to create a minor update."
+description: "Open a continuous integration request"
 labels: "Chore"
 title: "ci: "
 body:

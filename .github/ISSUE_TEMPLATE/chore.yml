@@ -1,5 +1,5 @@
 name: "🧹 Chore"
-description: "Open a chore to create a minor update."
+description: "Open a chore request"
 labels: "Chore"
 title: "chore: "
 body:
@@ -7,7 +7,7 @@ body:
     id: goal
     attributes:
       label: What is the goal of this chore?
-      description: Describe the update details and why it's needed. 
+      description: Describe the update details and why it's needed.
     validations:
       required: true
 
