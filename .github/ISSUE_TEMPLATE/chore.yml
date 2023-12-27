@@ -1,6 +1,6 @@
 name: "🧹 Chore"
 description: "Open a Chore for minor update."
-labels: "type : chore"
+labels: "Chore"
 title: "🧹 chore: "
 body:
   - type: textarea
