@@ -1,7 +1,7 @@
 name: 🐞 Bug Report
 description: File a bug report
 labels: [Bug]
-title: "🐞 fix: "
+title: "fix: "
 body:
   - type: markdown
     attributes:
