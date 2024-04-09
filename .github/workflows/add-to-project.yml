@@ -1,0 +1,23 @@
+name: Add issues to project
+
+on:
+  issues:
+    types:
+      - opened
+
+env:
+  BASE_URL: https://github.com/orgs
+  GITHUB_ORG: ${{ github.repository_owner }}
+  PROJECT_ID: 7 # "Backlog, Active, & Review"
+
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v1
+        with:
+          project-url: ${{ env.BASE_URL }}/${{ env.GITHUB_ORG }}/projects/${{ env.PROJECT_ID }}
+          github-token: ${{ secrets.ADD_TO_PROJECT_TOKEN }}
+          labeled: bug, needs-triage
+          label-operator: OR
