@@ -4,6 +4,8 @@ on:
   issues:
     types:
       - opened
+      - reopened
+      - labeled
 
 env:
   BASE_URL: https://github.com/orgs
